@@ -2,15 +2,21 @@ body {
     margin: 0;
 }
 
-.body {
+.container {
     background-color: darkcyan;
     color: whitesmoke;
     margin: 0 15%;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
     width: 100%;
+}
+
+.home-img {
+    width: 75%;
 }
 
 footer {
@@ -20,6 +26,11 @@ footer {
 
 .provisory-class {
     margin-top: 0;
+}
+
+#recipes{
+    display: flex;
+    flex-direction: row;
 }
 
 ol {
